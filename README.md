@@ -11,6 +11,7 @@ Create a virtual environment (recommended) and install dependencies:
 ```bash
 # From project root
 pip install -r requirements.txt
+pip install safety-gymnasium
 ```
 
 ### 2. Install the package
@@ -31,6 +32,9 @@ From the **project root** (`Fuz-RL-official/`), run:
 
 # Fuz-PPO-Lagrangian (Fuz-RL)
 ./scripts/run_example_fuzppolag.sh
+
+# CVaR-PPO-Lagrangian
+./scripts/run_example_cvarppolag.sh
 ```
 
 Optional: specify GPU and other args (e.g. use GPU 1, 500 epochs):
